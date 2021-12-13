@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
 .navbar {
   height: 100vh;
   position: fixed;
-  width: 5rem;
+  width: 4rem;
   background-color: var(--bg-primary);
   transition: width 100ms ease;
 }
@@ -63,21 +63,29 @@ body::-webkit-scrollbar-thumb {
   color: var(--text-primary);
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 5rem;
 }
 
 .link-text {
   display: none;
-  margin-left: 0.4rem;
+  margin-left: 0.1rem;
 }
 
 .nav-link > i {
   min-width: 2rem;
-  margin: 0 1.5rem;
 }
 
 .navbar:hover {
   width: 12rem;
+}
+
+.navbar:hover .nav-link > i {
+  margin-left: 1.5rem;
+}
+
+.navbar:hover .nav-link {
+  justify-content: unset;
 }
 
 .navbar:hover .link-text {
