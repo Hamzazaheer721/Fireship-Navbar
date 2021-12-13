@@ -37,3 +37,22 @@ body::-webkit-scrollbar-thumb {
   width: 5rem;
   background-color: var(--bg-primary);
 }
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+}
