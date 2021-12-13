@@ -30,3 +30,10 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
+
+.navbar {
+  height: 100vh;
+  position: fixed;
+  width: 5rem;
+  background-color: var(--bg-primary);
+}
